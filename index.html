@@ -14,9 +14,33 @@ o\:*         { behavior: url(#default#VML) }
 <![endif]--><!--[if gte mso 9]>
 <xml><o:shapedefaults v:ext="edit" spidmax="1027"/>
 </xml><![endif]-->
+<script language="JavaScript">
+<!--
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+// -->
+</script>
 </head>
 
-<body bgcolor="#00FF00" background="../../../Downloads/671832.jpg">
+<body bgcolor="#00FF00" background="../../../Downloads/671832.jpg" onload="FP_preloadImgs(/*url*/'button3.gif',/*url*/'button4.gif')">
 
 <p align="center">
 <marquee bgcolor="#800000">buttholesbuttholesbuttholesbuttholesbuttholesbuttholesbuttholesbuttholesbuttholesbuttholesbuttholesbuttholesbuttholesbuttholesbuttholesbuttholesbuttholesbuttholes</marquee><!--[if gte vml 1]><v:shapetype id="_x0000_t136"
@@ -74,6 +98,16 @@ https://www.youtube.com/channel/UCDlFPN0I2xzCHoZYOBbTguQ</span></a></p>
 <img border="0" src="../../../Pictures/Mario-Kart-Tour-Beta-Image-1.jpg" width="700" height="574"><img border="0" src="../../../Pictures/tenor%20(18).gif" width="500" height="313"><img border="0" src="../../../Pictures/planetME.gif" width="500" height="515"></p>
 <p align="center">
 <img border="0" src="../../../Pictures/image0%20(4).jpg" width="788" height="750"></p>
+<p align="center">&nbsp;</p>
+<p align="left"><font color="#FFFFFF">
+<font size="6" face="Bahnschrift SemiBold">
+<span style="background-color: #000000">Wanna</span></font><span style="background-color: #000000"></span><font size="6" face="Bahnschrift SemiBold"><span style="background-color: #000000"> 
+see my review of &quot;25 to life&quot;?</span></font></font></p>
+<p align="left">
+<img border="0" src="../../../Downloads/images%20(1).jpg" width="518" height="517"></p>
+<p align="left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<b><font face="Algerian" size="7">&nbsp;-&gt;</font></b><a href="https://www.youtube.com/watch?v=SX7giRfizio"><img border="0" id="img1" src="button2.gif" height="40" width="200" alt="Click Here!" onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'button3.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'button2.gif')" onmousedown="FP_swapImg(1,0,/*id*/'img1',/*url*/'button4.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img1',/*url*/'button3.gif')" fp-style="fp-btn: Metal Capsule 1; fp-font: Comic Sans MS; fp-font-style: Bold; fp-font-size: 20; fp-transparent: 1" fp-title="Click Here!"></a><b><font size="7" face="Algerian">&lt;-</font></b></p>
+<p align="left">&nbsp;</p>
 <p>&nbsp;</p>
 <p align="center">
 <!--webbot bot="HitCounter" i-image="4" I-ResetValue="0" B-Reset="TRUE" I-Digits="0" U-Custom --></p>
