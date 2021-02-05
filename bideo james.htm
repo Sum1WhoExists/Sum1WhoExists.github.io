@@ -4,14 +4,44 @@
 <meta http-equiv="Content-Language" content="en-us">
 <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
 <title>New Page 2</title>
+<script language="JavaScript">
+<!--
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+// -->
+</script>
 </head>
 
-<body bgcolor="#000000" background="d6ri8pf-c526ca8b-2b35-4f85-9ba7-125ba2e4ce9f.jpg">
+<body bgcolor="#000000" background="d6ri8pf-c526ca8b-2b35-4f85-9ba7-125ba2e4ce9f.jpg" onload="FP_preloadImgs(/*url*/'button2C.gif', /*url*/'button2D.gif')">
 
 <p align="center"><font face="Castellar" size="7" color="#FFFFFF">
 <span style="background-color: #000000">Holy FUCKING SHIT...</span></font></p>
 <p align="center"><font face="Castellar" size="7" color="#FFFFFF">
 <span style="background-color: #000000">NOW THIS IS EEEPPPIIICCC!</span></font></p>
+<p align="center"><a href="index.html">
+<img border="0" id="img1" src="button2B.gif" height="54" width="270" alt="AHHH!!! PLS TAKE ME BACK" fp-style="fp-btn: Metal Capsule 5; fp-font: Stencil; fp-font-size: 14; fp-transparent: 1; fp-proportional: 0" fp-title="AHHH!!! PLS TAKE ME BACK" onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'button2C.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'button2B.gif')" onmousedown="FP_swapImg(1,0,/*id*/'img1',/*url*/'button2D.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img1',/*url*/'button2C.gif')"></a></p>
+<p align="center"><img border="0" src="Blue_1.png" width="200" height="200">&nbsp;&nbsp;
+<img border="0" src="Game_Fuel_2012_Bottle_Design.png" width="65" height="200">&nbsp;&nbsp;
+<img border="0" src="6964926_preview.png" width="344" height="200">&nbsp;&nbsp;
+<img border="0" src="2017053114382470_big.png" width="200" height="200"></p>
 <p align="left">&nbsp;</p>
 <p align="left"><font face="Britannic Bold" size="4" color="#FFFFFF">
 <span style="background-color: #000000">This is a video game -&gt;</span> </font>
