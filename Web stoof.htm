@@ -4,11 +4,36 @@
 <meta http-equiv="Content-Language" content="en-us">
 <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
 <title>Web stoof</title>
+<script language="JavaScript">
+<!--
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+// -->
+</script>
 </head>
 
-<body bgcolor="#000000">
+<body bgcolor="#000000" onload="FP_preloadImgs(/*url*/'button8F.gif', /*url*/'button90.gif')">
 
 <p><b><font size="4" color="#FFFFFF">Website assets, ads and wutever!...</font></b></p>
+<p align="left">&nbsp;<a href="index.html"><img border="0" id="img1" src="button8E.gif" height="29" width="145" alt="Click to go back" fp-style="fp-btn: Braided Row 3; fp-font-size: 12; fp-font-color-normal: #FFFFFF; fp-font-color-hover: #FFFF00; fp-font-color-press: #800080; fp-transparent: 1" fp-title="Click to go back" onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'button8F.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'button8E.gif')" onmousedown="FP_swapImg(1,0,/*id*/'img1',/*url*/'button90.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img1',/*url*/'button8F.gif')"></a></p>
 <p><img border="0" src="allnew2.gif" width="170" height="178">
 <img border="0" src="baby_icon_blue.gif" width="32" height="32">
 <img border="0" src="bejeweled468x60.gif" width="468" height="60">
@@ -37,7 +62,15 @@
 <img border="0" src="up_logo.gif" width="149" height="128">
 <img border="0" src="win32_bookworm.gif" width="125" height="125"><img border="0" src="win32_diamondmine.gif" width="125" height="125">
 <img border="0" src="win32_insaniquarium.gif" width="125" height="125">
-<img border="0" src="wordshark.jpg" width="146" height="83"><img border="0" src="youtube.PNG" width="279" height="57"></p>
+<img border="0" src="wordshark.jpg" width="146" height="83">
+<img border="0" src="youtube.PNG" width="279" height="57">
+<img border="0" src="1download.gif" width="80" height="11">
+<img border="0" src="5.gif" width="13" height="21"></p>
+<p>&nbsp;</p>
+<p align="center"><font color="#FFFFFF"><span style="background-color: #000000">
+(c) 2020 Sum1WhoExists Ltd....</span></font></p>
+<p align="center"><span style="background-color: #000000"><font color="#FFFFFF">
+except I don't own any of these assets...</font></span></p>
 <p>&nbsp;</p>
 
 </body>
