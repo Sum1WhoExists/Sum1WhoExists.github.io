@@ -6,11 +6,6 @@
 <title>aboot moi 1</title>
 <script language="JavaScript">
 <!--
-function FP_preloadImgs() {//v1.0
- var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
- for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
-}
-
 function FP_swapImg() {//v1.0
  var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
  n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
@@ -31,14 +26,14 @@ function FP_getObjectByID(id,o) {//v1.0
 <bgsound src="3-25%20Staff%20Roll.wav" loop="-1">
 </head>
 
-<body background="less%20tiled%20waller%20melon.gif" onload="FP_preloadImgs(/*url*/'button65.gif', /*url*/'button66.gif')">
+<body background="less%20tiled%20waller%20melon.gif">
 
 <p>&nbsp;</p>
 <p align="center"><b><font size="7" face="Krabby Patty" color="#003700">
 <span style="background-color: #D1FFA4">Welcome to this part of the shitty 
 website!</span></font></b></p>
 <p align="center">&nbsp;</p>
-<p align="center"><a href="index.html">
+<p align="center"><a href="https://sum1whoexists.github.io/">
 <img border="0" id="img1" src="button64.gif" height="29" width="145" alt="Previous Screen" fp-style="fp-btn: Embossed Capsule 2; fp-font-size: 14; fp-transparent: 1" fp-title="Previous Screen" onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'button65.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'button64.gif')" onmousedown="FP_swapImg(1,0,/*id*/'img1',/*url*/'button66.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img1',/*url*/'button65.gif')"></a></p>
 <p align="center">&nbsp;</p>
 <p align="center">&nbsp;</p>
